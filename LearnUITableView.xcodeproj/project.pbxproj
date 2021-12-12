@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B50A3CDD27668B3A004BDCC3 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A3CDC27668B3A004BDCC3 /* Task.swift */; };
+		B50A3CDF27668BBE004BDCC3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A3CDE27668BBE004BDCC3 /* User.swift */; };
+		B50A3CE127668C53004BDCC3 /* Workboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A3CE027668C53004BDCC3 /* Workboard.swift */; };
 		B517E7A82745E4AA00D48F0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B517E7A72745E4AA00D48F0B /* AppDelegate.swift */; };
 		B517E7AA2745E4AA00D48F0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B517E7A92745E4AA00D48F0B /* SceneDelegate.swift */; };
 		B517E7AC2745E4AA00D48F0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B517E7AB2745E4AA00D48F0B /* ViewController.swift */; };
@@ -16,6 +19,7 @@
 		B517E7BF2745E4AB00D48F0B /* LearnUITableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B517E7BE2745E4AB00D48F0B /* LearnUITableViewTests.swift */; };
 		B517E7C92745E4AB00D48F0B /* LearnUITableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B517E7C82745E4AB00D48F0B /* LearnUITableViewUITests.swift */; };
 		B517E7CB2745E4AB00D48F0B /* LearnUITableViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B517E7CA2745E4AB00D48F0B /* LearnUITableViewUITestsLaunchTests.swift */; };
+		B51BF6D62745FA5A00A02F34 /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51BF6D52745FA5A00A02F34 /* SummaryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B50A3CDC27668B3A004BDCC3 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		B50A3CDE27668BBE004BDCC3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B50A3CE027668C53004BDCC3 /* Workboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workboard.swift; sourceTree = "<group>"; };
 		B517E7A42745E4AA00D48F0B /* LearnUITableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnUITableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B517E7A72745E4AA00D48F0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B517E7A92745E4AA00D48F0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,7 @@
 		B517E7C42745E4AB00D48F0B /* LearnUITableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnUITableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B517E7C82745E4AB00D48F0B /* LearnUITableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnUITableViewUITests.swift; sourceTree = "<group>"; };
 		B517E7CA2745E4AB00D48F0B /* LearnUITableViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnUITableViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B51BF6D52745FA5A00A02F34 /* SummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +109,11 @@
 			children = (
 				B517E7A72745E4AA00D48F0B /* AppDelegate.swift */,
 				B517E7A92745E4AA00D48F0B /* SceneDelegate.swift */,
+				B51BF6D52745FA5A00A02F34 /* SummaryViewController.swift */,
 				B517E7AB2745E4AA00D48F0B /* ViewController.swift */,
+				B50A3CDC27668B3A004BDCC3 /* Task.swift */,
+				B50A3CDE27668BBE004BDCC3 /* User.swift */,
+				B50A3CE027668C53004BDCC3 /* Workboard.swift */,
 				B517E7AD2745E4AA00D48F0B /* Main.storyboard */,
 				B517E7B02745E4AB00D48F0B /* Assets.xcassets */,
 				B517E7B22745E4AB00D48F0B /* LaunchScreen.storyboard */,
@@ -260,7 +272,11 @@
 			files = (
 				B517E7AC2745E4AA00D48F0B /* ViewController.swift in Sources */,
 				B517E7A82745E4AA00D48F0B /* AppDelegate.swift in Sources */,
+				B50A3CE127668C53004BDCC3 /* Workboard.swift in Sources */,
+				B50A3CDF27668BBE004BDCC3 /* User.swift in Sources */,
+				B50A3CDD27668B3A004BDCC3 /* Task.swift in Sources */,
 				B517E7AA2745E4AA00D48F0B /* SceneDelegate.swift in Sources */,
+				B51BF6D62745FA5A00A02F34 /* SummaryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +455,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4G57YD9S2Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LearnUITableView/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -466,6 +483,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4G57YD9S2Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LearnUITableView/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
